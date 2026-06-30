@@ -379,10 +379,10 @@ function Footer() {
         </div>
 
         <nav className="flex gap-5">
-          <a href="#contact" className="transition duration-200 hover:text-zinc-950">
+          <a href="/contact" className="transition duration-200 hover:text-zinc-950">
             Contact
           </a>
-          <a href="#confidentialite" className="transition duration-200 hover:text-zinc-950">
+          <a href="/confidentialite" className="transition duration-200 hover:text-zinc-950">
             Politique de confidentialité
           </a>
         </nav>
