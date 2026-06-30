@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
-const FORM_CLIENTE_URL = "COLOCAR_LINK_FORM_CLIENTE";
-const FORM_PRESTADOR_URL = "COLOCAR_LINK_FORM_PRESTADOR";
+const FORM_CLIENTE_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf4QXK6ICMlviQttY8FV2tW2snKZIBRRlc2xIn0EDuFA-19gg/viewform?usp=sharing&ouid=106248154664912003739";
+const FORM_PRESTADOR_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfAeuXVIa1MKmtzWIv2qvDixm1EEdDDBKHTeR7MQnpAQqi_kw/viewform?usp=sharing&ouid=106248154664912003739";
 
 const navLinks = [
   { label: "Accueil", href: "#accueil" },
