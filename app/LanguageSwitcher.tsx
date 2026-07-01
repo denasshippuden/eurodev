@@ -34,7 +34,7 @@ export function LanguageSwitcher({
   return (
     <div
       aria-label={content[currentLocale].switcherLabel}
-      className="flex items-center gap-1 rounded-full border border-zinc-200 bg-white p-1"
+      className="flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--surface)] p-1"
       role="group"
     >
       {locales.map((locale) => {
@@ -47,8 +47,8 @@ export function LanguageSwitcher({
             aria-label={content[locale].localeName}
             aria-current={isActive ? "page" : undefined}
             title={content[locale].localeName}
-            className={`inline-flex h-9 w-11 items-center justify-center rounded-full transition duration-200 hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-zinc-400 focus:ring-offset-2 ${
-              isActive ? "bg-zinc-950 ring-1 ring-zinc-950" : "bg-white"
+            className={`inline-flex h-9 w-11 items-center justify-center rounded-full transition duration-200 hover:bg-[var(--surface-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--focus)] focus:ring-offset-2 focus:ring-offset-[var(--background)] ${
+              isActive ? "bg-[var(--accent)] ring-1 ring-[var(--accent)]" : "bg-[var(--surface)]"
             }`}
           >
             <Flag locale={locale} />
